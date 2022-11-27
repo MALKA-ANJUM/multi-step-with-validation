@@ -1,24 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Multi-step form with validtaion</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-
-
-
-
-
-
-
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="very.html">
+        <h1>Register Here</h1>
+        <div class="form">
+            <div class="field">
+                <label for="">Name</label>
+                <input type="text" placeholder="name" />
+                <span></span>
+            </div>
+            <div class="field">
+                <label for="">Email</label>
+                <input type="text" placeholder="email" />
+                <span></span>
+            </div>
+        </div>
+        <div class="form">
+            <div class="field">
+                <label for="">UserName</label>
+                <input type="text" placeholder="username" />
+                <span></span>
+            </div>
+            <div class="field">
+                <label for="">Phone no.</label>
+                <input type="number" placeholder="phone number" />
+                <span></span>
+            </div>
+            <div class="form">
+                <div class="field">
+                    <label for="">Password</label>
+                    <input type="password" placeholder="password" />
+                    <span></span>
+                </div>
+                <div class="field">
+                    <label for="">Confirm password</label>
+                    <input type="password" placeholder="Confirm password" />
+                    <span></span>
+                </div>
+            </div>
+            <div class="form">
+                <div class="field">
+                    <label for="">Date of Birth</label>
+                    <input type="date"/>
+                    <span></span>
+                </div>
+                <div class="field">
+                    <label for="">Picture</label>
+                    <input type="file" />
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <button>Previous</button>
+        <button>Next</button>
+    </form>
 
     <script src="script.js"></script>
-    
-</body>
+  </body>
 </html>
